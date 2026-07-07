@@ -1,11 +1,25 @@
-/* reset básico pra não brigar com o layout do app */
-* { box-sizing: border-box; }
-
-html, body {
-  height: 100%;
-  margin: 0;
+* {
+  box-sizing: border-box;
 }
 
-#root {
+html {
+  min-height: 100%;
+  background: #050201;
+}
+
+body {
+  min-width: 320px;
   min-height: 100vh;
+  margin: 0;
+  background: #050201;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
 }
