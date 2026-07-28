@@ -1,58 +1,54 @@
-# Lista de Tarefas (To-Do App)
+# To-Do App React
 
-Aplicação simples de lista de tarefas desenvolvida durante meus estudos em **React**, com foco em entender melhor **estado, eventos, componentização e persistência de dados no navegador**.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/WessYu/WessYu/main/readme-assets/todo-app-react-cover.svg" alt="To-Do App React" width="100%" />
+</p>
 
-A ideia do projeto foi criar algo funcional e organizado, sem depender de bibliotecas externas ou back-end, priorizando a lógica e a clareza do código.
+<p align="center"><strong>Lista de tarefas criada para praticar estado, eventos, componentização e persistência em React.</strong></p>
 
----
+## Demo
+
+<p align="center"><img src="https://raw.githubusercontent.com/WessYu/WessYu/main/readme-assets/todo-app-react-demo.gif" alt="Fluxo animado do To-Do App" width="720" /></p>
+
+## Sobre
+
+Projeto de estudo focado nos fundamentos do React. A aplicação mantém o escopo intencionalmente simples para destacar manipulação de estado, formulários, filtros e persistência no navegador.
 
 ## Funcionalidades
 
-- Adicionar novas tarefas
-- Marcar tarefas como concluídas
-- Editar tarefas com duplo clique
-- Remover tarefas
-- Filtrar por:
-  - Todas
-  - Em andamento
-  - Concluídas
-- Persistência dos dados com `localStorage` (as tarefas permanecem após recarregar a página)
+- adicionar tarefas;
+- marcar como concluída;
+- editar com duplo clique;
+- remover tarefas;
+- filtros por todas, em andamento e concluídas;
+- persistência com `localStorage`.
 
----
-
-## Tecnologias utilizadas
+## Stack
 
 - React
-- JavaScript (ES6+)
+- JavaScript ES6+
 - Vite
 - HTML5
 - CSS3
 
----
+## Conceitos praticados
 
-## O que pratiquei neste projeto
+- `useState` e `useEffect`;
+- eventos e formulários;
+- renderização condicional;
+- componentização;
+- persistência local.
 
-- Uso de `useState` e `useEffect`
-- Manipulação de eventos e formulários
-- Renderização condicional
-- Organização de arquivos e pastas
-- Separação de lógica e estilos
-- Persistência de dados no navegador
-
----
-
-## Possíveis melhorias futuras
-
-- Adicionar autenticação simples
-- Integrar com uma API REST
-- Criar testes básicos
-- Melhorar acessibilidade
-- Responsividade para telas menores
-
----
-
-## Como rodar o projeto localmente
+## Executando localmente
 
 ```bash
+git clone https://github.com/WessYu/todo-app-react.git
+cd todo-app-react
 npm install
 npm run dev
+```
+
+## Autor
+
+**Wesley Cruz**  
+[GitHub](https://github.com/WessYu) · [Portfólio](https://wessyu-arquivo.vercel.app/)
